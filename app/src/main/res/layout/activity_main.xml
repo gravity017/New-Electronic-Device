@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ice_pbru.dangchoung.natchanon.electronicdevice01.MainActivity"
+    android:background="@drawable/bg29">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Electronic Device"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:textColor="#000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"
+        android:background="#00ffffff"
+        android:textColor="#000000" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_below="@+id/textView"
+        android:layout_above="@+id/button"
+        android:layout_marginTop="20dp" />
+</RelativeLayout>
